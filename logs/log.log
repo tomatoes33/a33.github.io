@@ -1,0 +1,48 @@
+2024-05-10 15:30:50.008  INFO 45256 --- [restartedMain] com.irental.houserent.StartApplication   : Starting StartApplication on client001 with PID 45256 (E:\code\IdeaProjects\HouseRental\target\classes started by 乖zai in E:\code\IdeaProjects\HouseRental)
+2024-05-10 15:30:50.013  INFO 45256 --- [restartedMain] com.irental.houserent.StartApplication   : No active profile set, falling back to default profiles: default
+2024-05-10 15:30:50.054  INFO 45256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-10 15:30:50.055  INFO 45256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-10 15:30:51.613  INFO 45256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-10 15:30:51.639  INFO 45256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-10 15:30:51.639  INFO 45256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2024-05-10 15:30:51.946  INFO 45256 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-10 15:30:51.952  INFO 45256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-10 15:30:51.953  INFO 45256 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1898 ms
+2024-05-10 15:30:52.315  INFO 45256 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-05-10 15:30:52.574  INFO 45256 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-05-10 15:30:56.485  INFO 45256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-10 15:30:56.514  INFO 45256 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2024-05-10 15:30:56.587  INFO 45256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-10 15:30:56.589  INFO 45256 --- [restartedMain] com.irental.houserent.StartApplication   : Started StartApplication in 6.917 seconds (JVM running for 7.725)
+2024-05-10 15:30:56.804  INFO 45256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-10 15:30:56.804  INFO 45256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-10 15:30:56.812  INFO 45256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-05-10 15:31:00.021  INFO 45256 --- [ThreadPoolTaskScheduler-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-10 15:33:00.016  WARN 45256 --- [task-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/HouseRental?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull, version : 1.2.8, lastPacketReceivedIdleMillis : 60009
+2024-05-10 15:35:00.018  WARN 45256 --- [task-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/HouseRental?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull, version : 1.2.8, lastPacketReceivedIdleMillis : 60009
+2024-05-10 15:37:00.015  WARN 45256 --- [task-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/HouseRental?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull, version : 1.2.8, lastPacketReceivedIdleMillis : 60008
+2024-05-10 15:41:00.010  WARN 45256 --- [task-11] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/HouseRental?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull, version : 1.2.8, lastPacketReceivedIdleMillis : 60008
+2024-05-10 15:42:45.069  INFO 45256 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-10 15:42:45.069  INFO 45256 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-05-10 15:42:45.069  INFO 45256 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-05-10 17:02:23.415  INFO 23588 --- [restartedMain] com.irental.houserent.StartApplication   : Starting StartApplication on client001 with PID 23588 (E:\code\IdeaProjects\HouseRental\target\classes started by 乖zai in E:\code\IdeaProjects\HouseRental)
+2024-05-10 17:02:23.417  INFO 23588 --- [restartedMain] com.irental.houserent.StartApplication   : No active profile set, falling back to default profiles: default
+2024-05-10 17:02:23.450  INFO 23588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-10 17:02:23.451  INFO 23588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-10 17:02:24.270  INFO 23588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-10 17:02:24.286  INFO 23588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-10 17:02:24.286  INFO 23588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2024-05-10 17:02:24.413  INFO 23588 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-05-10 17:02:24.417  INFO 23588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-10 17:02:24.417  INFO 23588 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 966 ms
+2024-05-10 17:02:24.516  INFO 23588 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-05-10 17:02:24.579  INFO 23588 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-05-10 17:02:25.170  INFO 23588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-10 17:02:25.188  INFO 23588 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2024-05-10 17:02:25.225  INFO 23588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-10 17:02:25.226  INFO 23588 --- [restartedMain] com.irental.houserent.StartApplication   : Started StartApplication in 2.084 seconds (JVM running for 2.593)
+2024-05-10 17:02:25.362  INFO 23588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-10 17:02:25.363  INFO 23588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-10 17:02:25.372  INFO 23588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-05-10 17:03:00.010  INFO 23588 --- [ThreadPoolTaskScheduler-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-10 17:09:00.019  WARN 23588 --- [task-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/HouseRental?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
